@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+/* -------------------- Customisation du framework ------------------------------- */
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Indie Flower', cursive;
+}
+
+/* -------------------------------------------------------------------------------- */
