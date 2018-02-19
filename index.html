@@ -13,134 +13,192 @@
 </head>
 
 <body>
-	
-	<div id=ancreHaut></div>
 
-		<nav id=nav>
-			<a href="index.html#ancreHaut" value="Haut de page"><button type="button"> Haut de page </button></a>
-			<a href="index.html#ancreCompetences" value="Compétence"><button type="button"> Compétences </button></a>
-			<a href="index.html#ancreProjets" value="Projets"><button type="button"> Projets </button></a>
-			<a href="index.html#ancreFormation" href="index.html#projets" value="Formation"><button type="button"> Formations </button></a>
-			<a href="#ancreXpPro" value="Experiénces professionnelles"><button type="button"> Expériences Professionnelles </button></a>	
-		</nav>
-
-	<div id="globale">
-
-		<h1 id=titre>Développeur Web Junior</h1>
-			
-		<div id=iconesLang>
-			<a href="https://www.sololearn.com/Profile/6091388" target="_blanc"><img src="logoslang/HTML5_Logo_512.png"></a>
-			<a href="https://www.sololearn.com/Profile/6091388" target="_blanc"><img src="logoslang/css3-logo-FD8D698B77-seeklogo.com.png"></a>
-			<a href="https://www.sololearn.com/Profile/6091388" target="_blanc"><img src="logoslang/formation-javascript-3-jours.jpg.png"></a>
-			<a href="https://www.sololearn.com/Profile/6091388" target="_blanc"><img src="logoslang/php-logo.png"></a>
+	<div id="navigation" class="w3-top">
+		<div class="boutonNav" class="w3-bar">
+			<a class="w3-bar-item w3-hide-small" href="index.html#ancreHaut" value="Haut de page"><button type="button" class="boutonNav"> Accueil </button></a>
+			<a class="w3-bar-item w3-hide-small" href="index.html#ancreCompetences" value="Compétence"><button type="button" class="boutonNav"> Compétences </button></a>
+			<a class="w3-bar-item w3-hide-small" href="index.html#ancreProjets" value="Projets"><button type="button" class="boutonNav"> Projets </button></a>
+			<a class="w3-bar-item w3-hide-small" href="index.html#ancreFormation" href="index.html#projets" value="Formation"><button type="button" class="boutonNav"> Formations </button></a>
+			<a class="w3-bar-item w3-hide-small" href="#ancreXpPro" value="Experiénces professionnelles"><button type="button" class="boutonNav"> Expériences Professionnelles </button></a>
+			<a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium" onclick="menuNavMobile()">&#9776;</a>
 		</div>
+
+		<div id="menuNavMob" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+			<a href="index.html#ancreHaut" class="w3-bar-item w3-button w3-card"> Accueil </a>
+			<a href="index.html#ancreCompetences" class="w3-bar-item w3-button w3-card"> Compétences </a>
+			<a href="index.html#ancreProjets" class="w3-bar-item w3-button w3-card"> Projets </a>
+			<a href="index.html#ancreFormation" class="w3-bar-item w3-button w3-card"> Formations </a>
+			<a href="#ancreXpPro" class="w3-bar-item w3-button w3-card"> Expériences Professionnelles </a>
+		</div>
+	</div>	
+
+	<div id="global" class="w3-row-padding">
+
+		<div id=ancreHaut></div>
+
+		<br/>
+		<br/>
+		<br/>
+
+		<div id="block-gauche" class="w3-col m4 l3">
+
+			<img src="img/photo1.jpg" id="photo" class="w3-card-4 w3-image">
+				
+			<div id=apropos class="w3-container w3-card-4 block_texte">
+				<h3>A propos de moi</h3>
+				<br/>
+				<img src="Icônes/Nom.png" class="mini-picto">
+				<p class=etatCivil> Nicolas Marty </p>
+				<br/>
+				<img src="Icônes/Age.png" class="mini-picto">
+				<p class=etatCivil> 30 ans </p>
+				<br/>
+				<img src="Icônes/Adresse postale.png" class="mini-picto">
+				<p class=etatCivil> 09100 PAMIERS </p>
+				<br/>
+				<img src="Icônes/Email.png" class="mini-picto">
+				<p class=etatCivil><a class="clicLien" href="mailto:"> 
+				marty.nicolas11@laposte.net </a></p>
+				<br/>
+				<img src="Icônes/téléphone.png" class="mini-picto">
+				<p class=etatCivil> 07.82.06.89.81 </p>
+				<br/>		
+			</div>
+				
+			<div id=mesuivre class="w3-container w3-card-4 block_texte">
+				<h3>Me suivre</h3>
+				<br/>
+				<a href="https://www.linkedin.com/in/nicolas-marty-140216153/" target="_blanc"><img src="Icônes/LinkedIn.png" class="clicImg"></a>
+				<a href="https://github.com/NicoSimplon" target="_blanc"><img src="Icônes/Github.png" class="clicImg"></a>
+				<br/>
+			</div>
+
+			<div id="centresInteret" class="w3-container w3-cardw3-card-4 block_texte">
+				<h3>Mes centres d'intérêt</h3>
+				<br/>
+				<li>Randonées pédestres (en particulier les randonées en montagne)</li>
+				<br/>
+				<li>Informatique (assemblage d'ordinateur, jeux videos)</li>
+				<br/>
+				<li>Cinéma (en particulier les films de science fiction)</li>
+				<br/>
+			</div>
 			
-		<br/>
+			<br/>
+			
+			<a href="pdf/version_imprimable.pdf" target="_blanc" id="boutonImpr"> Télécharger la version imprimable </a>
 
-		<p id=accroche>"J'aime créer des choses, notamment en informatique. C'est la raison qui a motivé mon choix de reconversion professionnelle dans le métier de développeur web."</p>
+			<br/>
+			<br/>
 
-		<br/>
+		</div>
 
-		<div id=ancreCompetences></div>
+		<div id="block-droit" class="w3-col m8 l9">
 
-		<div id=competences class=divBlock>
+			<div class="w3-container w3-card-4 block_texte">
+				<h1 id=titre>Développeur Web Junior</h1>
+			</div>
+
+			<br/>
+
+			<div class="w3-container w3-card-4 block_texte">
+				<a class="center" href="https://www.sololearn.com/Profile/6091388" target="_blanc"><img src="logoslang/HTML5_Logo_512.png" class="picto clicImg w3-image"></a>
+				<a class="center" href="https://www.sololearn.com/Profile/6091388" target="_blanc"><img src="logoslang/css3-logo-FD8D698B77-seeklogo.com.png" class="picto clicImg w3-image"></a>
+				<a class="center" href="https://www.sololearn.com/Profile/6091388" target="_blanc"><img src="logoslang/formation-javascript-3-jours.jpg.png" class="picto clicImg w3-image"></a>
+				<a class="center" href="https://www.sololearn.com/Profile/6091388" target="_blanc"><img src="logoslang/php-logo.png" class="picto clicImg w3-image"></a>
+			</div>
+
+				<br/>
+				<br/>
+			
+			<div class="w3-container w3-card-4 block_texte">
+				<p>"J'aime créer des choses, notamment en informatique. C'est la raison qui a motivé mon choix de reconversion professionnelle dans le métier de développeur web."</p>
+			</div>
+
+			<br/>
+
+			<div id=ancreCompetences></div>
+
+			<br/>
+
+			<div class="w3-container w3-card-4 block_texte">
 				<h3>Compétences</h3>
-		</div>		
+				<br/>
+				<p>(Cliquez sur les tuiles pour afficher les compétences)</p>
+				<br/>
+				<ul>
+					<div id="overlay">
+						<a class="w3-card-4" href="#noWhere">
+							<h4 id="titre_overlay"></h4>
+							<ul id="liste_overlay">
+							</ul>
+							<p>(Cliquez dessus pour fermer)</p>
+						</a>
+					</div>
+					<a id="C1" href="#overlay"><li class="competSolo">Développer une application client - serveur</li></a>
+					<a id="C2" href="#overlay"><li class="competSolo">Développer une application web</li></a>
+					<a id="C3" href="#overlay"><li class="competSolo">Juridique</li></a>
+					<a id="C4" href="#overlay"><li class="competSolo">B.T.P</li></a>
+					<a id="C5" href="#overlay"><li class="competSolo">Agricole</li></a>
+					<a id="C6" href="#overlay"><li class="competSolo">Tourisme</li></a>
+					<a id="C7" href="#overlay"><li class="competSolo">Langues</li></a>
+				</ul>
+			</div>		
 
-		<div id=ancreProjets></div>
+			<div id=ancreProjets></div>
 
-		<div id=projets>
+			<br/>
+
+			<div class="w3-container w3-card-4 block_texte">
 				<h3>Projets</h3>
 				<br/>
 				<!-- Fonction - nom de projet - entreprise - liens vers le projet -->
-				<li>Fonction de Product Owner dans le cadre de la création d'un nouveau site internet (à l'aide du CMS Wordpress et en utilisant les méthodes agiles) pour le compte du club de parachutisme de Pamiers (CEPS) - <a href="http://parachutisme-pamiers.fr/" target="_blanc">lien vers le site</a></li>	
+				<li>Fonction de Product Owner dans le cadre de la création d'un nouveau site internet (à l'aide du CMS Wordpress et en utilisant les méthodes agiles) pour le compte du club de parachutisme de Pamiers (CEPS) - <a class="clicLien" href="http://parachutisme-pamiers.fr/" target="_blanc">lien vers le site</a></li>	
 			</div>
 
-		<div id=ancreFormation></div>
+			<div id=ancreFormation></div>
 
-		<div id=formation>
-			<h3>Formations / Stages</h3>
 			<br/>
-			<li>Novembre 2017 à Octobre 2018 : Formation de développeur web et mobile au sein de l'école régionale du numérique de Pamiers (utilisation des méthodes agiles) - Titre professionnel de <a href="http://www.rncp.cncp.gouv.fr/grand-public/visualisationFiche?format=fr&fiche=5927" target="_blanc">Développeur Logiciel</a></li>	
-			<br/>
-			<li>2011 (2 mois) : Stage au parquet du tribunal de grande instance de Toulouse</li>
-			<br/>
-			<li>2010 : Master en Droit (mention droit privé, sciences criminelles et carrières judiciaires ; specialité Contentieux et Arbitrage)</li>
-			<br/>
-			<li>2005 : Baccalauréat Économique et Social</li>
-		</div>
 
-		<div id=ancreXpPro></div>
+			<div class="w3-container w3-card-4 block_texte">
+				<h3>Formations / Stages</h3>
+				<br/>
+				<li>Novembre 2017 à Octobre 2018 : Formation de développeur web et mobile au sein de l'école régionale du numérique de Pamiers (utilisation des méthodes agiles) - Titre professionnel de <a class="clicLien" href="http://www.rncp.cncp.gouv.fr/grand-public/visualisationFiche?format=fr&fiche=5927" target="_blanc">Développeur Logiciel</a></li>	
+				<br/>
+				<li>2011 (2 mois) : Stage au parquet du tribunal de grande instance de Toulouse</li>
+				<br/>
+				<li>2010 : Master en Droit (mention droit privé, sciences criminelles et carrières judiciaires ; specialité Contentieux et Arbitrage)</li>
+				<br/>
+				<li>2005 : Baccalauréat Économique et Social</li>
+			</div>
 
-		<div id=xpPro>
-			<h3>Expériences Professionnelles</h3>
-			<br/>
-			<li>Décembre 2015 à Septembre 2016 (9 mois) : Monteur manutentionnaire au sein de la société CIAT PRODUCTION-DPS MAZÈRES (cette activité saisonnière consistait à monter les produits de la société dans des campings partenaires)</li>	
-			<br/>
-			<li>Été 2010 (2 mois) : Conseiller juridique bénévole pour UFC Que Choisir (activité de conseil juridique aux adhérents en matière de droit de la consommation)</li>
-			<br/>
-			<li>Étés 2015, 2014, 2013, 2011, 2009 (7 mois en tout) : Ouvrier agricole saisonnier au sein de la société KWS France (activité de pollinisation de maïs de semence expérimental)</li>
-			<br/>
-			<li>Étés 2005 à 2008 (8 mois en tout) : Accueil touristique dans une exposition culturelle de la commune de Fanjeaux (accueil et information des visiteurs, vente de souvenirs)</li>
-			<br/>
-			<li>Étés 2007 à 2011 (7 mois en tout) : Ouvrier agricole saisonnier (activité de castration du maïs de semence au sein de diverses exploitations agricoles)</li>
-		</div>
-		
-	</div>
+			<div id=ancreXpPro></div>
 
-	<aside id=aside>
-		
-		<img src="img/photo1.jpg" id=photo>
+			<br/>
+
+			<div class="w3-container w3-card-4 block_texte">
+				<h3>Expériences Professionnelles</h3>
+				<br/>
+				<li>Décembre 2015 à Septembre 2016 (9 mois) : Monteur manutentionnaire au sein de la société CIAT PRODUCTION-DPS MAZÈRES (cette activité saisonnière consistait à monter les produits de la société dans des campings partenaires)</li>	
+				<br/>
+				<li>Été 2010 (2 mois) : Conseiller juridique bénévole pour UFC Que Choisir (activité de conseil juridique aux adhérents en matière de droit de la consommation)</li>
+				<br/>
+				<li>Étés 2015, 2014, 2013, 2011, 2009 (7 mois en tout) : Ouvrier agricole saisonnier au sein de la société KWS France (activité de pollinisation de maïs de semence expérimental)</li>
+				<br/>
+				<li>Étés 2005 à 2008 (8 mois en tout) : Accueil touristique dans une exposition culturelle de la commune de Fanjeaux (accueil et information des visiteurs, vente de souvenirs)</li>
+				<br/>
+				<li>Étés 2007 à 2011 (7 mois en tout) : Ouvrier agricole saisonnier (activité de castration du maïs de semence au sein de diverses exploitations agricoles)</li>
+			</div>
 			
-		<div id=apropos>
-			<h3>A propos de moi</h3>
-			<br/>
-			<img src="Icônes/Nom.png">
-			<p class=etatCivil> Nicolas Marty </p>
-			<br/>
-			<br/>
-			<img src="Icônes/Age.png">
-			<p> 30 ans </p>
-			<br/>
-			<br/>
-			<img src="Icônes/Adresse postale.png">
-			<p> 14 Place de la République, 09100 PAMIERS </p>
-			<br/>
-			<br/>
-			<img src="Icônes/Email.png">
-			<p><a href="mailto:"> 
-			marty.nicolas11@laposte.net</a></p>
-			<br/>
-			<br/>
-			<img src="Icônes/téléphone.png">
-			<p> 07.82.06.89.81 </p>
-			<br/>		
-		</div>
-			
-		<div id=mesuivre>
-			<h3>Me suivre</h3>
-			<br/>
-			<a href="https://www.linkedin.com/in/nicolas-marty-140216153/" target="_blanc"><img src="Icônes/LinkedIn.png"></a>
-			<a href="https://github.com/NicoSimplon" target="_blanc"><img src="Icônes/Github.png"></a>
 		</div>
 
-		<div id="centresInteret">
-			<h3>Mes centres d'intérêt</h3>
-			<br/>
-			<li>Randonées pédestres (en particulier les randonées en montagne)</li>
-			<br/>
-			<li>Informatique (assemblage d'ordinateur, jeux videos)</li>
-			<br/>
-			<li>Cinéma (en particulier les films de science fiction)</li>
-		</div>
-		
-		<br/>
-		
-		<a id="lienPrint" href="pdf/version_imprimable.pdf" target="_blanc"><input   type="button" value="Télécharger la version imprimable" id=dl ></a>
-	</aside>
+	</div>	
+	
+	<br/>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-	<script type="text/javascript" href="js/app.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 
 </body>
 </html>
