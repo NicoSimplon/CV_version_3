@@ -78,6 +78,7 @@ button:active {
 
 .clicImg:hover {
   background-color: rgba(0, 0, 0, 0.2);
+  border:  2px solid #C0C0C0;
   border-radius: 10px;
 }
 
@@ -88,8 +89,10 @@ button:active {
 }
 
 .clicLien:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+  border:  2px solid #C0C0C0;
   border-radius: 10px;
+  color:  #C0C0C0;
 }
 
 
@@ -168,6 +171,7 @@ button:active {
 .competSolo:hover {
   background: grey;
   color: #C0C0C0;
+  border:  2px solid #C0C0C0;
 }
 
 #overlay{
