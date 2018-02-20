@@ -121,6 +121,7 @@ button:active {
   border-radius: 10px;
   border: 2px solid #696969;
   font-size:  15pt;
+  color:  #696969;
   box-shadow: 3px 3px 8px 1px #696969, -3px -3px 8px 1px #696969;
   text-decoration: none;
   white-space: nowrap;
