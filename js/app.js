@@ -45,3 +45,4 @@ $("#C7").click(function(){
 	$("#titre_overlay").text('Compétences');
 	$("#liste_overlay").html('<li>Capacité à communiquer en anglais (niveau scolaire) ;</li><br/>');
 });
+

@@ -126,6 +126,10 @@ button:active {
   color:  #C0C0C0;
 }
 
+.clicImg {
+  width: 100px;
+}
+
 .clicImg:hover {
   background-color: rgba(0, 0, 0, 0.2);
   border:  2px solid #C0C0C0;
@@ -255,7 +259,7 @@ button:active {
 }
 
 .center {
-  margin-left: 8%;
+  margin-left: 6%;
 }
 
 .competSolo {
