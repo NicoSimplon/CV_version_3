@@ -1,313 +1,325 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 /* -------------------- Customisation du framework ---------------------------- */
+
 body {
-  font-family: 'Indie Flower', cursive;
-  font-size: 20pt;
-  line-height: 1.5;
-  font-weight: normal;
-  background-color: #C0C0C0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20pt;
+    line-height: 1.5;
+    font-weight: normal;
+    background-color: #C0C0C0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Indie Flower', cursive;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Indie Flower', cursive;
 }
 
 h1 {
-  font-size: 50pt;
-  overflow-wrap: break-word;
+    font-size: 50pt;
+    overflow-wrap: break-word;
 }
 
 h3 {
-  font-size:  30pt;
-  overflow-wrap: break-word;
+    font-size: 30pt;
+    overflow-wrap: break-word;
 }
 
 h4 {
-  font-size:  20pt;
+    font-size: 20pt;
 }
 
 li {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
-@media(max-width: 600px){
-  body {
-    font-family: 'Indie Flower', cursive;
-    font-size: 12pt;
-    line-height: 1.5;
-    font-weight: normal;
-    background-color: #C0C0C0;
-  }
-  h1 {
-    font-size: 35pt;
-    overflow-wrap: break-word;
-  }
-  h2 {
-    font-size: 24pt;
-    overflow-wrap: break-word;
-  }
-  h3 {
-    font-size:  20pt;
-    overflow-wrap: break-word;
-  }
-  h4 {
-    font-size:  15pt;
-  }
+@media(max-width: 600px) {
+    body {
+        font-family: 'Indie Flower', cursive;
+        font-size: 12pt;
+        line-height: 1.5;
+        font-weight: normal;
+        background-color: #C0C0C0;
+    }
+    h1 {
+        font-size: 35pt;
+        overflow-wrap: break-word;
+    }
+    h2 {
+        font-size: 24pt;
+        overflow-wrap: break-word;
+    }
+    h3 {
+        font-size: 20pt;
+        overflow-wrap: break-word;
+    }
+    h4 {
+        font-size: 15pt;
+    }
 }
 
-@media(max-width: 1024px){
-  body {
-    font-family: 'Indie Flower', cursive;
-    font-size: 15pt;
-    line-height: 1.5;
-    font-weight: normal;
-    background-color: #C0C0C0;
-  }
-  h1 {
-    font-size: 40pt;
-    overflow-wrap: break-word;
-  }
-  h2 {
-    font-size: 30pt;
-    overflow-wrap: break-word;
-  }
-  h3 {
-    font-size:  25pt;
-    overflow-wrap: break-word;
-  }
-  h4 {
-    font-size:  20pt;
-  }
+@media(max-width: 1024px) {
+    body {
+        font-family: 'Indie Flower', cursive;
+        font-size: 15pt;
+        line-height: 1.5;
+        font-weight: normal;
+        background-color: #C0C0C0;
+    }
+    h1 {
+        font-size: 40pt;
+        overflow-wrap: break-word;
+    }
+    h2 {
+        font-size: 30pt;
+        overflow-wrap: break-word;
+    }
+    h3 {
+        font-size: 25pt;
+        overflow-wrap: break-word;
+    }
+    h4 {
+        font-size: 20pt;
+    }
 }
+
 
 /* ----------------------- Menu de Navigation ---------------------------------- */
+
 #navigation {
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: grey;
-  border-bottom:  1px solid #696969;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: grey;
+    border-bottom: 1px solid #696969;
 }
 
 .boutonNav {
-  text-align: center;
+    text-align: center;
 }
 
 button {
-  margin: 5px;
-  padding: 3px;
-  background-color: #C0C0C0;
-  border-radius: 10px;
-  border: 2px solid #696969;
-  font-size:  15pt;
-  box-shadow: 3px 3px 8px 1px #696969, -3px -3px 8px 1px #696969;
-}
-
-button:hover {
-  background-color: #696969;
-  border: 2px solid #C0C0C0;
-  color:  #C0C0C0;
-  cursor: pointer;
-}
-
-button:active {
-  background-color: grey;
-  border:  3px solid white;
-  color:  white;
-}
-
-/* ---------------------- Classes Communes ------------------------ */
-.block_texte {
-  border-radius: 10px;
-  margin-top: 20px;
-  padding: 30px;
-  background-color: #696969;
-  color:  #C0C0C0;
-}
-
-.clicImg {
-  width: 100px;
-  height: 100px;
-}
-
-.clicImg:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-  border:  2px solid #C0C0C0;
-  border-radius: 10px;
-}
-
-.clicLien {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-.clicLien:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-  border:  2px solid #C0C0C0;
-  border-radius: 10px;
-  color:  #C0C0C0;
-}
-
-@media(max-width: 600px){
-  .clicLien {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-  }
-  .clicImg {
-    width: 40%;
-    height: 40%;
-  }
-}
-
-@media(max-width: 1024px){
-  .clicLien {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-  }
-  .clicImg {
-    width: 80px;
-  }
-}
-
-
-/* ---------------------- Bloc Gauche -------------------------------- */
-#photo {
-  width: 100%;
-  border: 1px solid #696969;
-  border-radius: 10px;
-}
-
-.mini-picto {
-  width: 20px;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.etatCivil {
-  display: inline-block;
-}
-
-#boutonImpr {
-  width: 100%;
-  margin: 5px;
-  padding: 3px;
-  background-color: #C0C0C0;
-  border-radius: 10px;
-  border: 2px solid #696969;
-  font-size:  15pt;
-  color:  #696969;
-  box-shadow: 3px 3px 8px 1px #696969, -3px -3px 8px 1px #696969;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-#boutonImpr:hover {
-  background-color: #696969;
-  border: 2px solid #C0C0C0;
-  color:  #C0C0C0;
-  cursor: pointer;
-}
-
-#boutonImpr:active {
-  background-color: grey;
-  border:  3px solid white;
-  color:  white;
-}
-
-@media(max-width: 600px){
-  .mini-picto {
-    width: 15px;
-    display: inline-block;
-    vertical-align: middle;
-  }
-}
-
-@media(max-width: 1024px){
-  #boutonImpr {
-    width: 50%;
     margin: 5px;
     padding: 3px;
     background-color: #C0C0C0;
     border-radius: 10px;
     border: 2px solid #696969;
-    font-size:  10pt;
-    color:  #696969;
+    font-size: 15pt;
+    box-shadow: 3px 3px 8px 1px #696969, -3px -3px 8px 1px #696969;
+}
+
+button:hover {
+    background-color: #696969;
+    border: 2px solid #C0C0C0;
+    color: #C0C0C0;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: grey;
+    border: 3px solid white;
+    color: white;
+}
+
+
+/* ---------------------- Classes Communes ------------------------ */
+
+.block_texte {
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #696969;
+    color: #C0C0C0;
+}
+
+.clicImg {
+    width: 100px;
+    height: 100px;
+}
+
+.clicImg:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
+}
+
+.clicLien {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.clicLien:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
+    color: #C0C0C0;
+}
+
+@media(max-width: 600px) {
+    .clicLien {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+    .clicImg {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .clicLien {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .clicImg {
+        width: 80px;
+    }
+}
+
+
+/* ---------------------- Bloc Gauche -------------------------------- */
+
+#photo {
+    width: 100%;
+    border: 1px solid #696969;
+    border-radius: 10px;
+}
+
+.mini-picto {
+    width: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.etatCivil {
+    display: inline-block;
+}
+
+#boutonImpr {
+    width: 100%;
+    margin: 5px;
+    padding: 3px;
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    border: 2px solid #696969;
+    font-size: 15pt;
+    color: #696969;
     box-shadow: 3px 3px 8px 1px #696969, -3px -3px 8px 1px #696969;
     text-decoration: none;
     white-space: nowrap;
-  }
-  .mini-picto {
-    width: 15px;
-    display: inline-block;
-    vertical-align: middle;
-  }
+}
+
+#boutonImpr:hover {
+    background-color: #696969;
+    border: 2px solid #C0C0C0;
+    color: #C0C0C0;
+    cursor: pointer;
+}
+
+#boutonImpr:active {
+    background-color: grey;
+    border: 3px solid white;
+    color: white;
+}
+
+@media(max-width: 600px) {
+    .mini-picto {
+        width: 15px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+@media(max-width: 1024px) {
+    #boutonImpr {
+        width: 50%;
+        margin: 5px;
+        padding: 3px;
+        background-color: #C0C0C0;
+        border-radius: 10px;
+        border: 2px solid #696969;
+        font-size: 10pt;
+        color: #696969;
+        box-shadow: 3px 3px 8px 1px #696969, -3px -3px 8px 1px #696969;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+    .mini-picto {
+        width: 15px;
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
 
 
 /* ---------------------- Bloc Droit -------------------------------------------- */
+
 .titre {
-  text-align: center;
+    text-align: center;
 }
 
 .picto {
-  padding:  15px;
-  margin-right: auto;
-  margin-left: auto;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .center {
-  margin-left: 6%;
+    margin-left: 6%;
 }
 
 .competSolo {
-  display: inline-block;
-  vertical-align: middle;
-  background: #C0C0C0;
-  color: #696969;
-  height: 150px;
-  width: 150px;
-  margin-top: 10px;
-  text-align: center;
-  border-radius: 10px;
-  font-size:  20px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #C0C0C0;
+    color: #696969;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .competSolo:hover {
-  background: grey;
-  color: #C0C0C0;
-  border:  2px solid #C0C0C0;
+    background: grey;
+    color: #C0C0C0;
+    border: 2px solid #C0C0C0;
 }
 
-#overlay{
-  display: none;
-  position: fixed;
-  top:0; 
-  right:0; 
-  bottom:0; 
-  left:0;
-  opacity: 1;
-  z-index: 2;
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 2;
 }
 
-#overlay:target{
-  display: block;
+#overlay:target {
+    display: block;
 }
 
-#overlay a{
-  padding: 15px;
-  width: 40%;
-  background-color: grey;
-  color: #C0C0C0;
-  white-space: normal;
-  position: absolute;
-  opacity: 1;
-  top: 15%;
-  left: 40%;
-  text-decoration: none;
-  border-radius:  10px;
-  font-size:  20px;
+#overlay a {
+    padding: 15px;
+    width: 40%;
+    background-color: grey;
+    color: #C0C0C0;
+    white-space: normal;
+    position: absolute;
+    opacity: 1;
+    top: 15%;
+    left: 40%;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
 }
