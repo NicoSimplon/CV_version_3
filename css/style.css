@@ -141,7 +141,7 @@ button:active {
     height: 100px;
 }
 
-.clicImg:hover {
+a .clicImg:hover {
     background-color: rgba(0, 0, 0, 0.2);
     border: 2px solid #C0C0C0;
     border-radius: 10px;
