@@ -3,7 +3,7 @@
 /* -------------------- Customisation du framework ---------------------------- */
 
 body {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive, sans-serif;
     font-size: 20pt;
     line-height: 1.5;
     font-weight: normal;
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive, sans-serif;
 }
 
 h1 {
